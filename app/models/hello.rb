@@ -32,9 +32,10 @@ class Hello < ActiveRecord::Base
       else
         "asdfasdfadsfadsffasdfsadfdsadfadsfdslllll"
       end
-      c = "asdfasdfasf"
+      here = "asdfasdfasf"
     else
-      c = "asdfasdfasf"
+      here = "asdfasdfasf"
     end
+    here = "asdfasdfasf"
   end
 end
