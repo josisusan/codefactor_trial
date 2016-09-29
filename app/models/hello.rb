@@ -17,4 +17,9 @@ class Hello < ActiveRecord::Base
       c = "asdfasdfasf"
     end
   end
+
+
+  	def my_custom_method
+  		"With Tab Spaces."
+  	end
 end
