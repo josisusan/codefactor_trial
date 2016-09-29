@@ -22,4 +22,19 @@ class Hello < ActiveRecord::Base
   	def my_custom_method
   		"With Tab Spaces."
   	end
+
+  def abc_complexity
+    here = "asdfasdf"
+    if here
+      there = "adsfadsfasfasdf"
+      if there
+        "asdfasdfasdf"
+      else
+        "asdfasdfadsfadsffasdfsadfdsadfadsfdslllll"
+      end
+      c = "asdfasdfasf"
+    else
+      c = "asdfasdfasf"
+    end
+  end
 end
